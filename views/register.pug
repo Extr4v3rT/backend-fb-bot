@@ -1,0 +1,14 @@
+html
+    head
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700")
+        link(rel="stylesheet" href="/css/main.css")
+        script(src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous")
+    body
+        form(action="/register" method="post")
+            input(type="text", name="name", placeholder="Wpisz Imie")
+            input(type="text", name="businessName", placeholder="Wpisz nazwe firmy")
+            input(type="text", name="email", placeholder="Wpisz email")
+            input(type="password", name="password", placeholder="Wpisz Haslo")
+            button(type="submit") Zarejestruj się
+
+        
